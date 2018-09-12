@@ -109,6 +109,15 @@ javac WordCount.java -cp $(hadoop classpath)
 
 ```
 jpm@jpm-VirtualBox:~/WordCount2$ ls
+WordCount$IntSumReducer.class  WordCount$TokenizerMapper.class  WordCount.class  WordCount.java
+```
+
+```
+jpm@jpm-VirtualBox:~/WordCount2$ jar cf wc.jar WordCount*.class
+```
+
+```
+jpm@jpm-VirtualBox:~/WordCount2$ ls
 WordCount$IntSumReducer.class  WordCount$TokenizerMapper.class  WordCount.class  WordCount.java  wc.jar
 ```
 

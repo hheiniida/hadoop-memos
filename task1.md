@@ -245,7 +245,7 @@ Here are some logs:
 
 Successfull program on master:
 
-````
+```
 jpm@jpm-VirtualBox:~/Projects$ hadoop jar wc.jar WordCount /input /outputSingle
 18/09/25 20:00:43 INFO client.RMProxy: Connecting to ResourceManager at /192.168.56.101:8032
 18/09/25 20:00:44 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
